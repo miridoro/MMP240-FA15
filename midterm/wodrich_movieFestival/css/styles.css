@@ -158,6 +158,11 @@ font-family: 'Hind', sans-serif;
     font-family: 'Cinzel Decorative', cursive;
 }
 
+.schedule {
+    width: 40%;
+    float: left;
+    height: 100px;
+}
 
 body {
     width: 95%;
@@ -385,6 +390,8 @@ font-family: 'Cinzel Decorative', cursive;
     line-height:1.1em;
     clear: left;    /*added because the h1 was following a float to the left */
 }
+
+
 
 
 
