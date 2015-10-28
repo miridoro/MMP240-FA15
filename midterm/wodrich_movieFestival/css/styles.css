@@ -159,10 +159,20 @@ font-family: 'Hind', sans-serif;
 }
 
 .schedule {
-    width: 40%;
+    
+    width: 47%;
     float: left;
-    height: 100px;
+    height: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid red;
+    text-align: center;
+    background: rgba(64, 64, 64, 0.8); 
+    margin-bottom: 10px;
+    
+    
 }
+
 
 body {
     width: 95%;
@@ -185,7 +195,11 @@ font-family: 'Cinzel Decorative', cursive;
 */
 
 
-
+.wrapper {
+	margin: 0 auto; /* This centers the grid. Remove this line to place the grid on the left of the page. */
+	text-align: center;
+	max-width: 950px;    /* 950px */
+}
 
 
 #container{
@@ -391,7 +405,22 @@ font-family: 'Cinzel Decorative', cursive;
     clear: left;    /*added because the h1 was following a float to the left */
 }
 
+.time {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size:1.4em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /*font-weight: 400;*/
+/*
+    margin-bottom:0px;
+    padding-top:1.2em;
+    line-height:1.1em;
+*/
+}
 
+.programme {
+    font-size: 1.3em;
+}
 
 
 
