@@ -1,0 +1,127 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Miriam Wodrich">
+    <meta name="keywords" content="review, html, movie choices, expectations">
+
+    <!-- very important meta-->
+    <meta name="description" content="A life of crime film festival">
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
+
+    <!-- incorporate the meta for mobile -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!--[if lt IE 9]>
+ <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+ <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!-- responsive listed first and styles listed second -->
+
+    <link rel="stylesheet" href="css/responsive-nav.css" media="all">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="js/responsive-nav.js"></script>
+
+
+    <title>A Life Of Crime Film Festival</title>
+
+</head>
+
+
+<body background="images/bloodsplatter2.png">    <!-- fixed width single column, opening div comes in right after the body, closing one right before the body end tag -->
+    <div id="container">
+        <header>
+            <!-- class selector that controls all of the styling -->
+            <nav class="nav-collapse">
+                <ul>
+                   
+                    <li style="text-align: center">Home</li>
+                    <li style="text-align: center"><a href="festival.html" style="text-decoration: none; color: black;">Movies</a></li>
+                     <li style="text-align: center"><a href="directorbios.html" style="text-decoration: none; color: black;">Director Biographies</a></li>
+                    <li style="text-align: center"><a href="schedule.html" style="text-decoration: none; color: black;">Schedule</a></li>
+                           <li style="text-align: center"><a href="information.html" style="text-decoration: none; color: black;">Information</a></li>
+                    <li style="text-align: center">Tickets</li>
+                </ul>
+            </nav>
+
+<a href="index.html" style="text-decoration: none; color: black;">
+        <img class="banner" src="images/bannertest.jpg" alt="banner"></a>
+            
+            
+            <h2>Information</h2>
+      <br>
+       <p class="categories"><a href="festival.html#mafiosos" style="text-decoration: none; color: white">Orion</a> | <a href="festival.html#psychos" style="text-decoration: none; color: white">Cineplex</a>
+            <hr />
+        </header>
+        
+        <div id="wrapper" class="wrapper">
+        
+        <h2 class="programme">Orion</h2><br>
+        <p>120 West Broadway, NY 10024 </p>
+        <p>www.theorion.com</p>
+        <p>347-200-3777</p>
+        <h3 class="movietitle">Directions:</h3>
+       
+        
+        <p>The Orion cinema is on 79th Street and Broadway. The location can be best accessed by subway on 79th Street (trains: 1 and 2) or the M79 bus.</p>
+        
+        <h2 class="programme">Cineplex</h2><br>
+        <p>560 West Broadway, NY 10024, New York </p>
+        <p>www.cineplex.com</p>
+        <p>347-299-5678</p>
+        <h3 class="movietitle">Directions:</h3>
+         <p>The Cineplex cinema is on 95th Street and Broadway. The location can be best accessed by subway on 96 Street (trains: 1, 2, 3) or the M96 bus.</p>
+          
+         
+       
+      
+           
+
+        </div>
+
+
+        
+       
+
+        
+     
+
+
+        <div class="position">
+
+        </div>
+
+
+
+    </div>
+
+    <script>
+        var navigation = responsiveNav(".nav-collapse", {
+            animate: true, // Boolean: Use CSS3 transitions, true or false
+            transition: 284, // Integer: Speed of the transition, in milliseconds
+            label: "Menu", // String: Label for the navigation toggle
+            insert: "after", // String: Insert the toggle before or after the navigation
+            customToggle: "", // Selector: Specify the ID of a custom toggle
+            closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+            openPos: "relative", // String: Position of the opened nav, relative or static
+            navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+            navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+            jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+            init: function () {}, // Function: Init callback
+            open: function () {}, // Function: Open callback
+            close: function () {} // Function: Close callback
+        });
+    </script>
+
+</body>
+
+</html>

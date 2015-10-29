@@ -154,7 +154,7 @@ font-family: 'Hind', sans-serif;
 
 .categories {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -169,6 +169,7 @@ font-family: 'Hind', sans-serif;
     text-align: center;
     background: rgba(64, 64, 64, 0.8); 
     margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
     
     
 }
@@ -234,12 +235,12 @@ font-family: 'Cinzel Decorative', cursive;
     
 }
 
-
 /*
+
 h3 {
     font-family: 'Hind', sans-serif;
-    font-size:1.5em;
-    color: white;
+    font-size:1.1em;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 400;
     margin-bottom:0px;
@@ -248,6 +249,7 @@ h3 {
     clear: left;   
 }
 */
+
 
 
 
@@ -416,6 +418,13 @@ font-family: 'Cinzel Decorative', cursive;
     padding-top:1.2em;
     line-height:1.1em;
 */
+}
+
+.movietitle {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size:0.9em;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .programme {
