@@ -135,7 +135,7 @@ video {
 }
 .about {
     font-family: 'Cinzel Decorative', cursive;
-    font-size:1.3em;
+    font-size:1.1em;
     color: rgb(255, 255, 255);
     text-align: center;
     /*font-weight: 400;*/
@@ -154,7 +154,7 @@ font-family: 'Hind', sans-serif;
 
 .categories {
     text-align: center;
-    font-size: 1.0em;
+    font-size: 1.1em;
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -562,6 +562,8 @@ font-family: 'Cinzel Decorative', cursive;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+    clear: left;
+    
 }
 
 .nav-collapse,
@@ -569,15 +571,18 @@ font-family: 'Cinzel Decorative', cursive;
   list-style: none;
   width: 100%;
   float: left;
+    clear: left;
 }
 
 .nav-collapse li {
   float: left;
   width: 100%;
   font-family: 'Cinzel Decorative', cursive;
-  background-color: rgb(250, 51, 51);
+/*  background-color: rgb(250, 51, 51);*/
+    background-color: rgb(238, 0, 17);
   margin-bottom:.5em;
   font-size: 1.5em;
+    clear: left;
 }
 
 
@@ -617,7 +622,7 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .nav-toggle:before {
-  color: rgb(250, 51, 51); /* Edit this to change the icon color */
+  color: rgb(238, 0, 17); /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -639,9 +644,10 @@ font-family: 'Cinzel Decorative', cursive;
   font-size: 30px;
     font-weight: 600;
   content:"x";
+   
 }
 
-
+#information {clear: both;}
 
 
 
