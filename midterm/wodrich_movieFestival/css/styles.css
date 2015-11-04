@@ -202,9 +202,25 @@ font-family: 'Cinzel Decorative', cursive;
 	max-width: 950px;    /* 950px */
 }
 
+#wrapper {
+        width: 95%;
+        margin: auto;
+    }
+    
+    #inner-wrapper {
+        width: 100%;
+        margin: auto;
+        border: 2px solid black;
+        overflow: auto;
+        /*very important !!!! if remove the border will not cover all the elements */
+    }
+
+
 
 #container{
 /*    width: 98%;*/
+    
+        
     height: 100%;
     margin:auto 0;
 /*    padding: .4em;*/
@@ -281,8 +297,8 @@ h3 {
 
 
 .position {
-	clear: both;
-/*	border-style: solid;*/
+    
+/*	clear: both;*/
 	text-align: left;
 	margin-left: 0px;
     margin-right: auto; 
@@ -290,9 +306,22 @@ h3 {
     width: 98%;
     height: auto;
     overflow: hidden;
-    
-   
 	}
+
+
+/*
+figure {margin: 0;
+        padding: 0;
+        float: left;
+}
+
+figure img {max-width: 100%;
+            border-top: 5px solid rgb(9,153,178);
+            border-bottom: 5px solid rgb(9,153,178);
+}  
+*/
+/* only expand til it gets to its actual size */
+
 
 
 img.align-left {
@@ -301,18 +330,20 @@ img.align-left {
     padding-bottom: 20px;
     width: 120px;
     height:165px;
+    max-width: 100%;
+}
     
 /*	margin:0 0 0 0;*/
 	/*border: 2px solid grey;*/
 /*	border-style: solid;*/
 /*     position: abolute;*/
-	}
+	
 
 /*
 img {
     padding: 5px;
     margin:auto;
-    float: center;
+    float: left;
 }
 */
 
@@ -562,7 +593,7 @@ font-family: 'Cinzel Decorative', cursive;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-    clear: left;
+    
     
 }
 
@@ -571,7 +602,7 @@ font-family: 'Cinzel Decorative', cursive;
   list-style: none;
   width: 100%;
   float: left;
-    clear: left;
+    
 }
 
 .nav-collapse li {
@@ -579,14 +610,35 @@ font-family: 'Cinzel Decorative', cursive;
   width: 100%;
   font-family: 'Cinzel Decorative', cursive;
 /*  background-color: rgb(250, 51, 51);*/
-    background-color: rgb(238, 0, 17);
+    background-color: rgb(200, 0, 17);
   margin-bottom:.5em;
   font-size: 1.5em;
-    clear: left;
+  
+}
+
+@media (min-width: 40em) {
+    .nav-collapse li {
+            width: 13%;
+            margin-right:1%;
+/*
+        margin: 0 auto;
+        float: center;
+*/
+        font-size: 1.0em;
+        text-align: center;
+    
+    }
 }
 
 
 .nav-collapse li:hover {background-color: rgb(255, 120, 120)}
+
+@media (min-width: 40em) {
+    .nav-collapse li:hover {
+        margin-bottom:0px;
+        font-size:1.0em;
+    } 
+}
 
 /* ------------------------------------------
   NAV TOGGLE STYLES, lines that control the three hamburger lines
@@ -622,7 +674,7 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .nav-toggle:before {
-  color: rgb(238, 0, 17); /* Edit this to change the icon color */
+  color: rgb(200, 0, 17); /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -647,7 +699,62 @@ font-family: 'Cinzel Decorative', cursive;
    
 }
 
-#information {clear: both;}
+#section {clear: both;}
 
 
+
+
+@media (min-width: 40em) {
+    #container {
+        width: 95%;
+        margin: auto;
+    }
+    
+    #inner-wrapper {
+        width: 100%;
+        margin: auto;
+        border: 2px solid black;
+        overflow: auto;
+        /*very important !!!! if remove the border will not cover all the elements */
+    }
+    
+    
+    
+    img.align-left {
+        max-width: 100%;
+        float: left;
+        width: 170px;
+        height:245px;
+    }
+    
+    .banner {
+        width: 100%;
+    }
+    
+    .position {
+        width: 40%;
+        float: left;
+        padding: 0px 20px 0px 20px;
+        
+    }
+    
+    p {
+        width: 100%;
+      
+    }
+    
+   
+    
+}
+
+@media (min-width: 70em){
+    
+    /*70 x 16 = 1120px - when the screen size is 1120px, the below rules apply */
+     .position {
+        width: 19%;
+        float: left;
+        padding: 0px 20px 0px 20px;
+        
+    }
+}
 
