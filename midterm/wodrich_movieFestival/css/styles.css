@@ -7,6 +7,7 @@ video {
   max-width: 100%;
 }
 
+
 .banner {
     width: 100%;
     height: 180px;
@@ -81,6 +82,11 @@ video {
 /*    padding: default;*/
     margin:0 0 0 0;
     width: 100%;
+    height: 240px;
+/*    max-width: 100%;*/
+}
+
+img.carimage {
     height: 240px;
 }
 
@@ -176,7 +182,8 @@ font-family: 'Hind', sans-serif;
 
 
 body {
-    width: 95%;
+    width: 98%;
+    margin: auto;
     font-size: 100%;
     background-color: rgb(224, 224, 224);
 /*	background-image: url("images/bloodsplatter2.png");*/
@@ -202,27 +209,23 @@ font-family: 'Cinzel Decorative', cursive;
 	max-width: 950px;    /* 950px */
 }
 
+/*
 #wrapper {
         width: 95%;
         margin: auto;
     }
+*/
     
-    #inner-wrapper {
-        width: 100%;
-        margin: auto;
-        border: 2px solid black;
-        overflow: auto;
-        /*very important !!!! if remove the border will not cover all the elements */
-    }
+ 
 
 
 
 #container{
-/*    width: 98%;*/
+    width: 97%;
     
-        
-    height: 100%;
-    margin:auto 0;
+/*    float: center;*/
+/*    height: 100%;*/
+    margin:auto;
 /*    padding: .4em;*/
     background-color: rgba(64, 64, 64, 0.7);
     position: relative;
@@ -233,6 +236,15 @@ font-family: 'Cinzel Decorative', cursive;
     bottom: 15px; 
 */
 }
+
+   #inner-wrapper {
+        width: 100%;
+        margin: auto;
+        float: center;
+/*        border: 2px solid black;*/
+        overflow: auto;
+        /*very important !!!! if remove the border will not cover all the elements */
+    }
 
 
 
@@ -299,14 +311,13 @@ h3 {
 .position {
     
 /*	clear: both;*/
-	text-align: left;
 	margin-left: 0px;
     margin-right: auto; 
     padding: 5px;
     width: 98%;
-    height: auto;
+/*    height: auto;*/
     overflow: hidden;
-	}
+}
 
 
 /*
@@ -376,6 +387,7 @@ hr {
     text-align: center;
     font-family: 'Marck Script', cursive; 
     font-size: 1.6em;
+    padding: 5px;
 
 }
 
@@ -387,11 +399,12 @@ hr {
 }
 
 #caption {
-    width: 95%;
+    width: 90%;
     height: 200px;
-    padding-left: 0.5em;
+/*    padding-left: 0.5em;*/
     font-size: 1em;
     text-align: justify;
+    margin: auto;
     
 }
 
@@ -713,7 +726,7 @@ font-family: 'Cinzel Decorative', cursive;
     #inner-wrapper {
         width: 100%;
         margin: auto;
-        border: 2px solid black;
+/*        border: 2px solid black;*/
         overflow: auto;
         /*very important !!!! if remove the border will not cover all the elements */
     }
@@ -729,12 +742,15 @@ font-family: 'Cinzel Decorative', cursive;
     
     .banner {
         width: 100%;
+        height: 260px;
     }
     
     .position {
         width: 40%;
         float: left;
         padding: 0px 20px 0px 20px;
+        margin: auto;
+        margin-left: 40px;
         
     }
     
@@ -743,7 +759,50 @@ font-family: 'Cinzel Decorative', cursive;
       
     }
     
+
+    
+       img.carimage {
+    height: 450px;
+}
+    
+
    
+     .active {
+      height: 500px;
+        width: 100%;
+    }
+    
+    .carleftbutton {
+    position: absolute;
+    left: 0;
+    top: 35%;
+/*    padding: 50px 10px;*/
+    z-index: 3;
+}
+
+
+.carrightbutton {
+    position: absolute;
+    right: 0;
+    top: 35%;
+/*    padding: 50px 10px;*/
+    z-index: 3;
+}
+   
+    
+     .directorimage {
+    margin: 0 auto;
+    float:right;
+    width: 50%;
+    height: 220px;  
+    padding-bottom: 20px;
+}
+    
+ 
+    
+  #quote { 
+    font-size: 1.8em;
+}
     
 }
 
@@ -754,7 +813,61 @@ font-family: 'Cinzel Decorative', cursive;
         width: 19%;
         float: left;
         padding: 0px 20px 0px 20px;
+        margin-left: 60px;
         
     }
+    .banner {
+        width: 100%;
+        height: 350px;
+    }
+    
+    img.align-left {
+        max-width: 100%;
+        float: left;
+        width: 190px;
+        height:265px; 
+    }
+    
+     .directorimage {
+    margin: 0 auto;
+    float:right;
+    width: 50%;
+    height: 290px; 
+    padding-bottom: 20px;
+}
+    
+           img.carimage {
+    height: 650px;
+}
+    
+    .active {
+      height: 680px;
+    width: 100%;
+    }
+    
+        .carleftbutton {
+    position: absolute;
+    left: 0;
+    top: 43%;
+    padding: 50px 10px;
+    z-index: 3;
+}
+
+
+.carrightbutton {
+    position: absolute;
+    right: 0;
+    top: 43%;
+    padding: 50px 10px;
+    z-index: 3;
+}
+    
+    #quote {
+    font-size: 2em;
+}
+    
+    body {
+    width: 90%;
+    margin: auto;  
 }
 
