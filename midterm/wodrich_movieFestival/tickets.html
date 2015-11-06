@@ -1,0 +1,356 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Miriam Wodrich">
+    <meta name="keywords" content="review, html, movie choices, expectations">
+
+    <!-- very important meta-->
+    <meta name="description" content="A life of crime film festival">
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
+
+    <!-- incorporate the meta for mobile -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!--[if lt IE 9]>
+ <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+ <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!-- responsive listed first and styles listed second -->
+
+    <link rel="stylesheet" href="css/responsive-nav.css" media="all">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="js/responsive-nav.js"></script>
+
+
+    <title>A Life Of Crime Film Festival</title>
+
+</head>
+
+
+<body background="images/bloodsplatter2.png">    <!-- fixed width single column, opening div comes in right after the body, closing one right before the body end tag -->
+    <div id="container">
+        <header>
+            <!-- class selector that controls all of the styling -->
+            <nav class="nav-collapse">
+                <ul>
+                   
+                    <li style="text-align: center">Home</li>
+                    <li style="text-align: center"><a href="festival.html" style="text-decoration: none; color: black;">Movies</a></li>
+                     <li style="text-align: center"><a href="directorbios.html" style="text-decoration: none; color: black;">Director Biographies</a></li>
+                    <li style="text-align: center"><a href="schedule.html" style="text-decoration: none; color: black;">Schedule</a></li>
+                           <li style="text-align: center"><a href="information.html" style="text-decoration: none; color: black;">Information</a></li>
+                    <li style="text-align: center">Tickets</li>
+                </ul>
+            </nav>
+
+<a href="index.html" style="text-decoration: none; color: black;">
+        <img class="banner" src="images/bannertest.jpg" alt="banner"></a>
+            
+            
+            <h2>Tickets</h2>
+      <br>
+       <p class="categories"><a href="schedule.html#thursday" style="text-decoration: none; color: white">Thursday</a> | <a href="schedule.html#friday" style="text-decoration: none; color: white">Friday</a>
+            <hr />
+        </header>
+        
+        <div id="wrapper" class="wrapper">
+        
+       
+           
+
+        </div>
+        
+        <br>
+       
+        
+        <section id="reservationform">
+
+<form action ="FormtoEmail.php" method="post">
+  <fieldset>
+  <legend><p class="categories">Your Details</p></legend>
+   <!-- get means if working with a database -->
+   
+   <label>First Name:
+    <input type="name" name="first_name" required="required">
+   </label>
+   <br>
+   
+   <label>Last Name:
+    <input type="name" name="last_name" required="required" class="lastname">
+   </label>
+   <br>
+   
+   <label>E-mail:
+    <input type="email" name="email" required="required" class="email">
+   </label>
+   </fieldset>
+   
+   <h2 class="programme"><a name="thursday">Thursday Nov. 3</a></h2><br>
+   
+   <fieldset>
+      <legend><p class="categories">6pm Screening </p></legend>
+      
+      <label>
+       <input type="radio" name="6pm_screening" value="The_Godfather">
+        The Godfather
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="6pm_screening" value="Goodfellas">
+        Goodfellas
+       </label>
+       <br>
+       
+       
+       <label>
+       <input type="radio" name="6pm_screening" value="The_Silence_Of_The_Lambs">
+        The Silence Of The Lambs
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="6pm_screening" value="Seven">
+        Seven
+       </label>
+       <br>
+       <br>
+       
+          <label>How Many Tickets Would You Like To Reserve?</label><br>
+       
+       <label>
+           1 <input type="radio" name="number_of_tickets" value="1">
+       </label>
+       
+       
+       <label>
+           2 <input type="radio" name="number_of_tickets" value="2">
+       </label>
+       
+       
+       <label>
+           3 <input type="radio" name="number_of_tickets" value="3">
+       </label>
+      
+       
+       <label>
+           4 <input type="radio" name="number_of_tickets" value="4">
+       </label>
+       
+    </fieldset>
+       <br>
+      
+       <fieldset>
+       
+       <legend><p class="categories">9pm Screening </p></legend>
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="The_Departed">
+        The Departed
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="The_Untouchables">
+        The Untouchables
+       </label>
+       <br>
+       
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="American_Psycho">
+        American Psycho
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="Gone_Girl">
+        Gone Girl
+       </label>
+       <br>
+       <br>
+       
+       <label>How Many Tickets Would You Like To Reserve?</label><br>
+       
+       <label>
+           1 <input type="radio" name="number_of_tickets" value="1">
+       </label>
+       
+       
+       <label>
+           2 <input type="radio" name="number_of_tickets" value="2">
+       </label>
+       
+       
+       <label>
+           3 <input type="radio" name="number_of_tickets" value="3">
+       </label>
+      
+       
+       <label>
+           4 <input type="radio" name="number_of_tickets" value="4">
+       </label>
+    </fieldset>
+       
+       
+       <h2 class="programme"><a name="thursday">Friday Nov. 4</a></h2><br>
+   
+   <fieldset>
+      <legend><p class="categories">6pm Screening </p></legend>
+      
+      <label>
+       <input type="radio" name="6pm_screening" value="Young_Guns">
+        Young Guns
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="6pm_screening" value="Barbarosa">
+        Barbarosa
+       </label>
+       <br>
+       
+       
+       <label>
+       <input type="radio" name="6pm_screening" value="Oceans_Eleven">
+        Ocean's Eleven
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="6pm_screening" value="Heist">
+        Heist
+       </label>
+       <br>
+       <br>
+       
+       <label>How Many Tickets Would You Like To Reserve?</label><br>
+       
+       <label>
+           1 <input type="radio" name="number_of_tickets" value="1">
+       </label>
+       
+       
+       <label>
+           2 <input type="radio" name="number_of_tickets" value="2">
+       </label>
+       
+       
+       <label>
+           3 <input type="radio" name="number_of_tickets" value="3">
+       </label>
+      
+       
+       <label>
+           4 <input type="radio" name="number_of_tickets" value="4">
+       </label>
+    </fieldset>
+     <br>
+      
+      <fieldset> 
+       <legend><p class="categories">9pm Screening </p></legend>
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="Unforgiven">
+        Unforgiven
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="3:10_To_Yuma">
+        3:10 To Yuma
+       </label>
+       <br>
+       
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="American_Psycho">
+        The Usual Suspects
+       </label>
+       <br>
+       
+       <label>
+       <input type="radio" name="9pm_screening" value="The_Italian_Job">
+        The Italian Job
+       </label>
+       <br>
+       <br>
+       <label>How Many Tickets Would You Like To Reserve?</label><br>
+       
+       <label>
+           1 <input type="radio" name="number_of_tickets" value="1">
+       </label>
+       
+       
+       <label>
+           2 <input type="radio" name="number_of_tickets" value="2">
+       </label>
+       
+       
+       <label>
+           3 <input type="radio" name="number_of_tickets" value="3">
+       </label>
+      
+       
+       <label>
+           4 <input type="radio" name="number_of_tickets" value="4">
+       </label>
+       
+       
+   </fieldset>
+   <br>
+   <br>
+   
+   
+   <input type="submit" value="Reserve Tickets">
+   
+   
+    
+</form>
+
+
+
+
+</section>
+
+
+        
+        <div class="position">
+
+        </div>
+
+
+
+    </div>
+
+    <script>
+        var navigation = responsiveNav(".nav-collapse", {
+            animate: true, // Boolean: Use CSS3 transitions, true or false
+            transition: 284, // Integer: Speed of the transition, in milliseconds
+            label: "Menu", // String: Label for the navigation toggle
+            insert: "after", // String: Insert the toggle before or after the navigation
+            customToggle: "", // Selector: Specify the ID of a custom toggle
+            closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+            openPos: "relative", // String: Position of the opened nav, relative or static
+            navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+            navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
+            jsClass: "js", // String: 'JS enabled' class which is added to <html> element
+            init: function () {}, // Function: Init callback
+            open: function () {}, // Function: Open callback
+            close: function () {} // Function: Close callback
+        });
+    </script>
+
+</body>
+
+</html>
