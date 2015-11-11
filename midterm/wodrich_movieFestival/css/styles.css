@@ -631,7 +631,7 @@ font-family: 'Cinzel Decorative', cursive;
 
 @media (min-width: 40em) {
     .nav-collapse li {
-            width: 14%;
+            width: 13%;
             margin-right:2%;
         margin-left: 5px;
 /*
@@ -719,7 +719,43 @@ font-family: 'Cinzel Decorative', cursive;
 
 
 
+/* style rules for form */
+/*#reservationform {font-family: 'Oswald', sans-serif;}*/
+
+fieldset {border: 1px solid white;
+        padding: 10px;
+}
+
+.lastname {margin-left: 1px;}
+
+.email {margin-left: 34px;}
+
+/*
+legend {font-size: 2em;
+        padding-top: 1em;
+}
+*/
+
+
+
+label {font-family: 'Hind', sans-serif;    
+    font-size:1.05em;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+
+
+
 @media (min-width: 40em) {
+    
+     form {width: 80%;
+        margin: auto;
+    }
+    
+    .email{margin-left: 35px;}
+    
+    
     #container {
         width: 95%;
         margin: auto;
@@ -830,6 +866,12 @@ font-family: 'Cinzel Decorative', cursive;
 @media (min-width: 70em){
     
     /*70 x 16 = 1120px - when the screen size is 1120px, the below rules apply */
+    
+     form{width: 70%;}
+    
+    .email{margin-right: 35px;}
+    
+    
      .position {
         width: 19%;
         float: left;
