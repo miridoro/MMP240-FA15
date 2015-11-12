@@ -150,7 +150,6 @@
     </div>
 
 <!-- adding a comment for testing -->
-<!-- adding a comment for testing two -->
 
 <div class="position">
 
