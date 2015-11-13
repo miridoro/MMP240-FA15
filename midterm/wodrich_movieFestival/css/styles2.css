@@ -727,64 +727,38 @@ font-family: 'Cinzel Decorative', cursive;
     background-color: rgb(200, 0, 17);
     width: 100%;
     height: 180px;    
-    z-index: 0;
 }
 
 #index {
     z-index: 5;
     height: 150px;
-/*    width: 240px;*/
-    width: 200px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-/*    position: relative;*/
-    float: left;
-/*    vertical-align: text-bottom;*/
+    width: 220px;
+    margin-top: 12px;
+    position: relative;
 }
 
-#divbannerimage {
-    margin: 0;
-    float: left;
-    
-}
-
-span {
-    font-size: 0.6em;
-}
-
-h3 {
-    color: white;
-}
 
 #bannerTitle {
-/*position: fixed;    */
+position: fixed;    
     margin: auto;
-    margin-left: 0px;
-/*    float: left;*/
+    margin-left: 150px;
     float: left;
-    font-size: 1.1em;
+    font-size: 1.0em;
     line-height: 180%;
-/*    margin-top: 55px;*/
-/*    margin-right: 7px;*/
-    width: 100%;
-    z-index: 3;
+    margin-top: 65px;
+    margin-right: 7px;
    
 }
 
-#divbannertitle {
-     margin: 0;
-    float: left;
-    z-index: 3;
-}
 
 #bannerunderTitle {
 position: fixed;
     margin: auto;
-    margin-left: 210px;
+    margin-left: 170px;
     float: left;
     font-size: 0.7em;
     line-height: 180%;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-right: 7px;
     font-family: 'Cinzel Decorative', cursive;
 }
@@ -873,19 +847,19 @@ label {font-family: 'Hind', sans-serif;
     z-index: 5;
     height: 210px;
     width: 340px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    float: left;
+    margin-top: 20px;
+    position: relative;
 }
 
 #bannerTitle {
+position: fixed;
     margin: auto;
-    margin-left: 0px;
+    margin-left: 300px;
     float: left;
-    font-size: 1.6em;
+    font-size: 1.8em;
     line-height: 180%;
-    width: 100%;
-    z-index: 3;
+    margin-top: 55px;
+    margin-right: 7px;
 }
 
 #bannerunderTitle {
@@ -900,11 +874,9 @@ position: fixed;
     font-family: 'Cinzel Decorative', cursive;
 }
     
-span {
-    font-size: 0.6em;
-}
-
-  
+    
+    
+    
     
     .position {
         width: 40%;
@@ -1019,19 +991,21 @@ span {
 #index {
     z-index: 5;
     height: 300px;
-    width: 400px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    float: left;
+    width: 500px;
+    margin-top: 20px;
+    position: relative;
 }
 
 #bannerTitle {
+position: fixed;
     margin: auto;
-    margin-left: 0px;
+    margin-left: 380px;
     float: left;
     font-size: 2.5em;
     line-height: 180%;
-    z-index: 3;
+    margin-top: 110px;
+    margin-right: 7px;
+/*    position:sticky;*/
 }
 
 #bannerunderTitle {
@@ -1046,9 +1020,6 @@ position: fixed;
     font-family: 'Cinzel Decorative', cursive;
 }
     
-    span {
-        font-size: 0.6em;
-    }
     
     
     
