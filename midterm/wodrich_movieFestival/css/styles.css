@@ -213,6 +213,7 @@ font-family: 'Cinzel Decorative', cursive;
 	margin: 0 auto; /* This centers the grid. Remove this line to place the grid on the left of the page. */
 	text-align: center;
 	max-width: 950px;    /* 950px */
+    height: 700px;
 }
 
 /*
@@ -872,7 +873,7 @@ label {font-family: 'Hind', sans-serif;
 #index {
     z-index: 5;
     height: 210px;
-    width: 340px;
+    width: 300px;
     margin-top: 0px;
     margin-bottom: 10px;
     float: left;
