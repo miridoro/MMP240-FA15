@@ -7,6 +7,7 @@ video {
   max-width: 100%;
 }
 
+
 .banner {
     width: 100%;
     height: 180px;
@@ -82,6 +83,11 @@ video {
     margin:0 0 0 0;
     width: 100%;
     height: 240px;
+/*    max-width: 100%;*/
+}
+
+img.carimage {
+    height: 240px;
 }
 
 .carleftbutton {
@@ -135,7 +141,7 @@ video {
 }
 .about {
     font-family: 'Cinzel Decorative', cursive;
-    font-size:1.3em;
+    font-size:1.1em;
     color: rgb(255, 255, 255);
     text-align: center;
     /*font-weight: 400;*/
@@ -154,13 +160,30 @@ font-family: 'Hind', sans-serif;
 
 .categories {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Cinzel Decorative', cursive;
+}
+
+.schedule {
+    
+    width: 47%;
+    float: left;
+    height: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid red;
+    text-align: center;
+    background: rgba(64, 64, 64, 0.8); 
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
 }
 
 
 body {
-    width: 95%;
+    width: 98%;
+    margin: auto;
     font-size: 100%;
     background-color: rgb(224, 224, 224);
 /*	background-image: url("images/bloodsplatter2.png");*/
@@ -180,13 +203,29 @@ font-family: 'Cinzel Decorative', cursive;
 */
 
 
+.wrapper {
+	margin: 0 auto; /* This centers the grid. Remove this line to place the grid on the left of the page. */
+	text-align: center;
+	max-width: 950px;    /* 950px */
+}
+
+/*
+#wrapper {
+        width: 95%;
+        margin: auto;
+    }
+*/
+    
+ 
 
 
 
 #container{
-/*    width: 98%;*/
-    height: 100%;
-    margin:auto 0;
+    width: 97%;
+    
+/*    float: center;*/
+/*    height: 100%;*/
+    margin:auto;
 /*    padding: .4em;*/
     background-color: rgba(64, 64, 64, 0.7);
     position: relative;
@@ -197,6 +236,15 @@ font-family: 'Cinzel Decorative', cursive;
     bottom: 15px; 
 */
 }
+
+   #inner-wrapper {
+        width: 100%;
+        margin: auto;
+        float: center;
+/*        border: 2px solid black;*/
+        overflow: auto;
+        /*very important !!!! if remove the border will not cover all the elements */
+    }
 
 
 
@@ -215,12 +263,12 @@ font-family: 'Cinzel Decorative', cursive;
     
 }
 
-
 /*
+
 h3 {
     font-family: 'Hind', sans-serif;
-    font-size:1.5em;
-    color: white;
+    font-size:1.1em;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 400;
     margin-bottom:0px;
@@ -229,6 +277,7 @@ h3 {
     clear: left;   
 }
 */
+
 
 
 
@@ -260,18 +309,30 @@ h3 {
 
 
 .position {
-	clear: both;
-/*	border-style: solid;*/
-	text-align: left;
+    
+/*	clear: both;*/
 	margin-left: 0px;
     margin-right: auto; 
     padding: 5px;
     width: 98%;
-    height: auto;
+/*    height: auto;*/
     overflow: hidden;
-    
-   
-	}
+}
+
+
+/*
+figure {margin: 0;
+        padding: 0;
+        float: left;
+}
+
+figure img {max-width: 100%;
+            border-top: 5px solid rgb(9,153,178);
+            border-bottom: 5px solid rgb(9,153,178);
+}  
+*/
+/* only expand til it gets to its actual size */
+
 
 
 img.align-left {
@@ -280,18 +341,20 @@ img.align-left {
     padding-bottom: 20px;
     width: 120px;
     height:165px;
+    max-width: 100%;
+}
     
 /*	margin:0 0 0 0;*/
 	/*border: 2px solid grey;*/
 /*	border-style: solid;*/
 /*     position: abolute;*/
-	}
+	
 
 /*
 img {
     padding: 5px;
     margin:auto;
-    float: center;
+    float: left;
 }
 */
 
@@ -324,6 +387,7 @@ hr {
     text-align: center;
     font-family: 'Marck Script', cursive; 
     font-size: 1.6em;
+    padding: 5px;
 
 }
 
@@ -335,11 +399,12 @@ hr {
 }
 
 #caption {
-    width: 95%;
+    width: 90%;
     height: 200px;
-    padding-left: 0.5em;
+/*    padding-left: 0.5em;*/
     font-size: 1em;
     text-align: justify;
+    margin: auto;
     
 }
 
@@ -384,6 +449,30 @@ font-family: 'Cinzel Decorative', cursive;
     padding-top:1.2em;
     line-height:1.1em;
     clear: left;    /*added because the h1 was following a float to the left */
+}
+
+.time {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size:1.4em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /*font-weight: 400;*/
+/*
+    margin-bottom:0px;
+    padding-top:1.2em;
+    line-height:1.1em;
+*/
+}
+
+.movietitle {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size:0.9em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.programme {
+    font-size: 1.3em;
 }
 
 
@@ -517,6 +606,8 @@ font-family: 'Cinzel Decorative', cursive;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+    
+    
 }
 
 .nav-collapse,
@@ -524,19 +615,45 @@ font-family: 'Cinzel Decorative', cursive;
   list-style: none;
   width: 100%;
   float: left;
+    
 }
 
 .nav-collapse li {
   float: left;
   width: 100%;
   font-family: 'Cinzel Decorative', cursive;
-  background-color: rgb(250, 51, 51);
+/*  background-color: rgb(250, 51, 51);*/
+    background-color: rgb(200, 0, 17);
   margin-bottom:.5em;
   font-size: 1.5em;
+  
+}
+
+@media (min-width: 40em) {
+    .nav-collapse li {
+            width: 13%;
+            margin-right:2%;
+        margin-left: 5px;
+/*
+        margin: 0 auto;
+        float: center;
+*/
+        font-size: 1.0em;
+        
+/*        text-align: center;*/
+    
+    }
 }
 
 
 .nav-collapse li:hover {background-color: rgb(255, 120, 120)}
+
+@media (min-width: 40em) {
+    .nav-collapse li:hover {
+        margin-bottom:0px;
+        font-size:1.0em;
+    } 
+}
 
 /* ------------------------------------------
   NAV TOGGLE STYLES, lines that control the three hamburger lines
@@ -572,7 +689,7 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .nav-toggle:before {
-  color: rgb(250, 51, 51); /* Edit this to change the icon color */
+  color: rgb(200, 0, 17); /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -594,9 +711,301 @@ font-family: 'Cinzel Decorative', cursive;
   font-size: 30px;
     font-weight: 600;
   content:"x";
+   
+}
+
+#section {clear: both;}
+
+#realBanner {
+    background-color: rgb(200, 0, 17);
+    width: 100%;
+    height: 180px;
+    
+}
+
+#index {
+    z-index: 5;
+    height: 150px;
+    width: 220px;
+    margin-top: 12px;
+    position: relative;
+}
+
+#bannerTitle {
+position: fixed;
+    margin: auto;
+    margin-left: 150px;
+    float: left;
+    font-size: 1em;
+    line-height: 180%;
+    margin-top: 65px;
+    margin-right: 7px;
+}
+
+#bannerunderTitle {
+position: fixed;
+    margin: auto;
+    margin-left: 170px;
+    float: left;
+    font-size: 0.7em;
+    line-height: 180%;
+    margin-top: 140px;
+    margin-right: 7px;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 
 
 
+
+
+/* style rules for form */
+/*#reservationform {font-family: 'Oswald', sans-serif;}*/
+
+fieldset {border: 1px solid white;
+        padding: 10px;
+}
+
+.lastname {margin-left: 1px;}
+
+.email {margin-left: 34px;}
+
+/*
+legend {font-size: 2em;
+        padding-top: 1em;
+}
+*/
+
+
+
+label {font-family: 'Hind', sans-serif;    
+    font-size:1.05em;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+
+
+
+@media (min-width: 40em) {
+    
+     form {width: 80%;
+        margin: auto;
+    }
+    
+    .email{margin-left: 35px;}
+    
+    
+    #container {
+        width: 95%;
+        margin: auto;
+    }
+    
+    #inner-wrapper {
+        width: 100%;
+        margin: auto;
+/*        border: 2px solid black;*/
+        overflow: auto;
+        /*very important !!!! if remove the border will not cover all the elements */
+    }
+    
+    
+    
+    img.align-left {
+        max-width: 100%;
+        float: left;
+        width: 170px;
+        height:245px;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 260px;
+    }
+    
+    .position {
+        width: 40%;
+        float: left;
+        padding: 0px 20px 0px 20px;
+        margin: auto;
+        margin-left: 40px;
+        
+    }
+    
+    p {
+        width: 100%;
+      
+    }
+    
+
+    
+       img.carimage {
+    height: 450px;
+}
+    
+
+   
+     .active {
+      height: 500px;
+        width: 100%;
+    }
+    
+    .carleftbutton {
+    position: absolute;
+    left: 0;
+    top: 35%;
+/*    padding: 50px 10px;*/
+    z-index: 3;
+}
+
+
+.carrightbutton {
+    position: absolute;
+    right: 0;
+    top: 35%;
+/*    padding: 50px 10px;*/
+    z-index: 3;
+}
+   
+    
+     .directorimage {
+    margin: 0 auto;
+    float:right;
+    width: 50%;
+    height: 220px;  
+    padding-bottom: 20px;
+}
+    
+ 
+    
+  #quote { 
+    font-size: 1.8em;
+}
+    
+    .type3 {
+    margin: 0 auto;
+    width: 400px;
+    height: 380px;
+}
+    
+    #abouttext {
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+}
+    
+.about {
+    font-size:1.3em;
+}
+    
+    #aboutpara {
+    font-size:1.1em;
+}
+}
+
+@media (min-width: 70em){
+    
+    /*70 x 16 = 1120px - when the screen size is 1120px, the below rules apply */
+    
+     form{width: 70%;}
+    
+    .email{margin-right: 35px;}
+    
+    
+     .position {
+        width: 19%;
+        float: left;
+        padding: 0px 20px 0px 20px;
+        margin-left: 60px;
+        
+    }
+    .banner {
+        width: 100%;
+        height: 350px;
+    }
+    
+    img.align-left {
+        max-width: 100%;
+        float: left;
+        width: 190px;
+        height:265px; 
+    }
+    
+     .directorimage {
+    margin: 0 auto;
+    float:right;
+    width: 50%;
+    height: 290px; 
+    padding-bottom: 20px;
+}
+    
+           img.carimage {
+    height: 650px;
+}
+    
+    .active {
+      height: 680px;
+    width: 100%;
+    }
+    
+        .carleftbutton {
+    position: absolute;
+    left: 0;
+    top: 43%;
+    padding: 50px 10px;
+    z-index: 3;
+}
+
+
+.carrightbutton {
+    position: absolute;
+    right: 0;
+    top: 43%;
+    padding: 50px 10px;
+    z-index: 3;
+}
+    
+    #quote {
+    font-size: 2em;
+}
+    
+    body {
+    width: 90%;
+    margin: auto;  
+}
+    
+      .type3 {
+    margin: 0 auto;
+    width: 470px;
+    height: 450px;
+}
+    
+      #abouttext {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+}
+    
+.about {
+    font-size:1.3em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+    
+    #aboutpara {
+    font-size:1.2em;
+        padding-top: 18px;
+}
+    
+    .categories {
+    text-align: center;
+    font-size: 1.3em;
+}
+    
+    #caption {
+    font-size: 1.1em;
+        color: rgb(255, 255, 255);
+}
+    
+}
 
