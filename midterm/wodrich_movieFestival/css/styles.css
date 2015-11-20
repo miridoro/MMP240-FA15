@@ -12,6 +12,17 @@ iframe {
 }
 
 
+
+
+p:hover > a {
+    background-color: darkgray;
+}
+
+
+
+
+
+
 .banner {
     width: 100%;
     height: 180px;
@@ -397,8 +408,8 @@ iframe {
 
 
 #googleform {
-    height: 600px;
-    width: 97%;
+    height: 800px;
+    width: 93%;
 }
 
 .paragraph {
@@ -502,7 +513,7 @@ font-family: 'Cinzel Decorative', cursive;
 
 .movietitle {
     font-family: 'Cinzel Decorative', cursive;
-    font-size:0.9em;
+    font-size:1.1em;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -777,7 +788,7 @@ color: rgb(255, 255, 255);
 }
 
 span {
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 
 h3 {
@@ -1228,7 +1239,7 @@ position: fixed;
     
     width: 24%;
         display: block;
-        float: center;
+        float: left;
     }
     
 }
