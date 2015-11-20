@@ -14,12 +14,20 @@ iframe {
 
 
 
+/*
 p:hover > a {
     background-color: darkgray;
 }
+*/
 
-
-
+a#thurs:hover {background-color: darkgray;}
+a#fri:hover {background-color: darkgray;}
+a#mafio:hover {background-color: darkgray;}
+a#psych:hover {background-color: darkgray;}
+a#outl:hover {background-color: darkgray;}
+a#thiev:hover {background-color: darkgray;}
+a#orio:hover {background-color: darkgray;}
+a#cine:hover {background-color: darkgray;}
 
 
 
