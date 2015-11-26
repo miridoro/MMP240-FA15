@@ -24,7 +24,30 @@ iframe {
    text-align: center;
 }
 
+.logo {
+    text-align: center;
+   
+}
 
+#logo1 {
+    
+    width: 12%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 30px;
+    padding: 5px;   
+}
+
+#aboutme {
+    border-radius:25px;
+    border: 2px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    
+}
 
 
 /*
@@ -894,7 +917,9 @@ label {font-family: 'Hind', sans-serif;
     width: 60%;
 }
     
-  
+  #logo1 {
+    width: 50px;
+    }
     
     .email{margin-left: 35px;}
     
@@ -1247,6 +1272,7 @@ position: fixed;
     #caption {
     font-size: 1.1em;
         color: rgb(255, 255, 255);
+        height: 240px;
 }
     
       .schedulepos {
