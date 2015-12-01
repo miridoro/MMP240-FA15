@@ -45,7 +45,7 @@ iframe {
     border: 2px solid white;
     margin-right: auto;
     margin-left: auto;
-    width: 30%;
+    width: 100px;
     
 }
 
@@ -259,6 +259,21 @@ body {
 /*    background-repeat: repeat-y;*/
     
 	}
+
+#symphony {
+     
+/*    background-color: rgb(224, 224, 224);*/
+/*	background-image: url("images/bloodsplatter2.png");*/
+        background-size: 200px 200px;   /* 400, 400 */
+/*        padding-top: 40px;*/
+    background-attachment: fixed;   
+}
+
+
+#aboutmepara{
+    width: 90%;
+    margin: auto;  
+}
 
 /*
 .clear {clear:both;
