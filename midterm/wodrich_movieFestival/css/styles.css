@@ -77,6 +77,7 @@ a.hov:hover {background-color: darkgray;}
 #navigation {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
+/*    background-color: rgba(0, 0, 0, 1);*/
     height: 50px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -183,11 +184,9 @@ img.carimage {
 
 
 
+/*
 .circleBase {
     border-radius: 50%;
-/*    behavior: url(PIE.htc);*/
-    
-
 }
 
 .type3 {
@@ -195,9 +194,25 @@ img.carimage {
     width: 340px;
     height: 320px;
     background: rgba(64, 64, 64, 0.7);
-    border: 2px solid red;
+    border: 2px solid red;  
+}
+*/
+
+.rectangle {
+    
+    width: 100%;
+    height: 350px;
+    background: rgba(20, 20, 20, 0.7);
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: transparent;
+    border-right-color: transparent;
     
 }
+
+
 
 #abouttext {
     width: 260px;
@@ -207,7 +222,7 @@ img.carimage {
 }
 .about {
     font-family: 'Cinzel Decorative', cursive;
-    font-size:1.1em;
+    font-size:1.3em;
     color: rgb(255, 255, 255);
     text-align: center;
     /*font-weight: 400;*/
@@ -219,17 +234,19 @@ img.carimage {
 
 #aboutpara {
 /*font-family: 'Hind', sans-serif; */
-    font-family: 'Poiret One', cursive;
-    font-size:1em;
+/*    font-family: 'Poiret One', cursive;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:1.1em;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .categories {
     text-align: center;
-    font-size: 1.18em;
+    font-size: 1.4em;
 /*    font-family: 'Open Sans', sans-serif;*/
-    font-family: 'Poiret One', cursive;
+/*    font-family: 'Poiret One', cursive;*/
+    font-family: 'Josefin Sans', sans-serif;
 /*    font-family: 'Handlee', cursive;*/
 }
 
@@ -449,7 +466,9 @@ img {
 
 p {
 	font-size: 1em;
-    font-family: 'Hind', sans-serif;	
+/*    font-family: 'Hind', sans-serif;	*/
+    font-family: 'Josefin Sans', sans-serif;
+/*    font-family: 'Poiret One', sans-serif;*/
 /*    font-family: 'Open Sans', sans-serif;*/
 	margin: 0px 0px;
     line-height: 130%;
@@ -516,7 +535,7 @@ hr {
     width: 90%;
     height: 200px;
 /*    padding-left: 0.5em;*/
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: justify;
     margin: auto;
 /*    padding-right: 10px;*/
@@ -731,7 +750,7 @@ font-family: 'Cinzel Decorative', cursive;
   list-style: none;
   width: 100%;
   float: left;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(190, 190, 190, 0.7);
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -739,12 +758,16 @@ font-family: 'Cinzel Decorative', cursive;
   float: left;
   width: 100%;
 /*  font-family: 'Cinzel Decorative', cursive;*/
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+/*    font-family: 'Poiret One', sans-serif;*/
 /*  background-color: rgb(250, 51, 51);*/
-    background-color: rgb(200, 0, 17);
-  margin-bottom:.5em;
+/*    background-color: rgb(200, 0, 17);*/
+    background-color: rgb(54, 0, 4);
+/*    background-color: rgb(9, 1, 51);*/
+    
+  margin-bottom:.15em;
   font-size: 1.5em;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px 5px 5px 5px;
   
 }
@@ -806,7 +829,7 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .nav-toggle:before {
-  color: rgb(200, 0, 17); /* Edit this to change the icon color */
+  color: rgb(130, 5, 4); /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -825,7 +848,7 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .nav-toggle.active::before {
-color: rgb(255, 255, 255);
+color: rgb(230, 230, 230);
   font-size: 25px;
   font-weight: 300;
   content:"x";   
@@ -1091,11 +1114,13 @@ span {
     font-size: 1.8em;
 }
     
+/*
     .type3 {
     margin: 0 auto;
     width: 400px;
     height: 380px;
 }
+*/
     
     #abouttext {
     width: 290px;
@@ -1236,7 +1261,7 @@ position: fixed;
     
      .directorimage {
     height: 290px; 
-    padding-bottom: 20px;
+/*    padding-bottom: 20px;*/
          margin-left: 73px;
 }
     
@@ -1277,11 +1302,13 @@ position: fixed;
     margin: auto;  
 }
     
+/*
       .type3 {
     margin: 0 auto;
     width: 470px;
     height: 450px;
 }
+*/
     
       #abouttext {
     width: 320px;
