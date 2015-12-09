@@ -49,8 +49,8 @@ iframe {
     border: 2px solid white;
     margin-right: auto;
     margin-left: auto;
-    width: 100px;
-    
+    width: 100px; 
+    margin-top: 20px;
 }
 
 
@@ -61,7 +61,9 @@ p:hover > a {
 */
 
 
-a.hov:hover {background-color: darkgray;}
+
+a.hov:hover {background-color: rgba(140, 140, 140, 0.6);
+}
 
 
 
@@ -208,11 +210,16 @@ img.carimage {
     border-top-color: rgb(255, 255, 255);
     border-bottom-color: rgb(255, 255, 255);
     border-left-color: transparent;
-    border-right-color: transparent;
-    
+    border-right-color: transparent; 
 }
 
+.director {
+    font-size: 1em;
+}
 
+.movtitle {
+    font-size: 1.2em;
+}
 
 #abouttext {
     width: 260px;
@@ -236,7 +243,7 @@ img.carimage {
 /*font-family: 'Hind', sans-serif; */
 /*    font-family: 'Poiret One', cursive;*/
     font-family: 'Josefin Sans', sans-serif;
-    font-size:1.1em;
+    font-size:1.15em;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -257,11 +264,18 @@ img.carimage {
     height: 120px;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid red;
+    border: 3px solid rgba(54, 0, 4, 0.8);
     text-align: center;
-    background: rgba(64, 64, 64, 0.8); 
+    background: rgba(94, 94, 94, 0.8); 
+     -webkit-transition: background 2s; /* Safari */
+    transition: background color 2s;
     margin-bottom: 10px;
     border-radius: 10px 10px 10px 10px;
+}
+
+.schedule:hover {
+    
+    background: rgba(54, 0, 4, 0.6);
 }
 
 
@@ -295,6 +309,14 @@ body {
 #aboutmepara{
     width: 90%;
     margin: auto;  
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(54, 0, 4);
+    font-size: 1.15em;
+}
+
+aboutmecolor {
+    color: rgb(54, 0, 4);
+    
 }
 
 /*
@@ -465,7 +487,7 @@ img {
 */
 
 p {
-	font-size: 1em;
+	font-size: 1.1em;
 /*    font-family: 'Hind', sans-serif;	*/
     font-family: 'Josefin Sans', sans-serif;
 /*    font-family: 'Poiret One', sans-serif;*/
@@ -505,21 +527,15 @@ iframe {
 hr {
     display: block;
     border: 0;
-    border-top: 2px solid rgb(200, 0, 17);
+    border-top: 2px solid rgb(255, 255, 255);
     margin: 0.5em 0;
 }
 
-.hrwhite {
-    display: block;
-    border: 0;
-    border-top: 2px solid white;
-    margin: 0.5em 0;
-}
 
 #quote {
     text-align: center;
-    font-family: 'Marck Script', cursive; 
-    font-size: 1.6em;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.3em;
     padding: 5px;
 
 }
@@ -543,6 +559,7 @@ hr {
 
 #captiondiv {
     width: 90%;
+    height: 150px;
     margin: auto;
 }
 
@@ -763,6 +780,8 @@ font-family: 'Cinzel Decorative', cursive;
 /*  background-color: rgb(250, 51, 51);*/
 /*    background-color: rgb(200, 0, 17);*/
     background-color: rgb(54, 0, 4);
+    -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
 /*    background-color: rgb(9, 1, 51);*/
     
   margin-bottom:.15em;
@@ -781,17 +800,17 @@ font-family: 'Cinzel Decorative', cursive;
         margin: 0 auto;
         float: center;
 */
-        font-size: 1.0em;
+        font-size: 1.3em;
     }
 }
 
 
-.nav-collapse li:hover {background-color: rgb(255, 120, 120)}
+.nav-collapse li:hover {background-color: rgb(150, 43, 43);}
 
 @media (min-width: 40em) {
     .nav-collapse li:hover {
         margin-bottom:0px;
-        font-size:1.0em;
+        font-size:1.3em;
     } 
 }
 
@@ -829,7 +848,7 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .nav-toggle:before {
-  color: rgb(130, 5, 4); /* Edit this to change the icon color */
+  color: rgb(110, 5, 4); /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -979,6 +998,18 @@ label {font-family: 'Hind', sans-serif;
 }
     
     
+    .director {
+    font-size: 1.1em;
+}
+    
+    .movtitle {
+    font-size: 1.3em;
+}
+    
+    
+    #aboutme { 
+    margin-top: 0px;
+}
     
   #logo1 {
     width: 50px;
@@ -1075,7 +1106,7 @@ span {
     
     p {
         width: 100%;
-      
+        font-size: 1.2em;
     }
     
 
@@ -1111,7 +1142,8 @@ span {
  
     
   #quote { 
-    font-size: 1.8em;
+    font-size: 1.4em;
+      margin-bottom: 20px;
 }
     
 /*
@@ -1133,7 +1165,7 @@ span {
 }
     
     #aboutpara {
-    font-size:1.1em;
+    font-size:1.2em;
 }
     
     .schedule {
@@ -1143,9 +1175,9 @@ span {
     height: 120px;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid red;
+    border: 3px solid rgba(54, 0, 4, 0.8);
     text-align: center;
-    background: rgba(64, 64, 64, 0.8); 
+    background: rgba(94, 94, 94, 0.8); 
     margin-bottom: 10px;
     border-radius: 10px 10px 10px 10px;
 }
@@ -1154,10 +1186,16 @@ span {
         width: 98%;
         margin-left: 15px;
         margin-right: 15px;
-        overflow: hidden;
-       
+        overflow: hidden;  
     }
     
+     #caption {
+    font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        height: 240px;
+        margin-right: 30px;
+        margin-top: 50px;     
+}
     
 }
 
@@ -1181,7 +1219,40 @@ span {
     width: 45%;
     float: right;
 }
+    
+    #aboutme {
+    margin-top: 50px;
+    width: 120px; 
+}
+    
+    
+      .director {
+    font-size: 1.1em;
+}
+    
+    h2 {font-size:1.65em;}
+    
+    .movietitles{
+ font-family: 'Cinzel Decorative', cursive;
+        font-size:1.45em;}
+    
+    
+/*    p{font-size: 1.15em;*/
+    p {
+        width: 100%;
+        font-size: 1.25em;
+    }
+    
+    
+    .rectangle {
+        
+        height: 420px;
+    }
 
+      .movtitle {
+    font-size: 1.4em;
+}
+    
 .parent {
     margin: auto;
     width: 100%;
@@ -1260,7 +1331,7 @@ position: fixed;
     
     
      .directorimage {
-    height: 290px; 
+    height: 220px; 
 /*    padding-bottom: 20px;*/
          margin-left: 73px;
 }
@@ -1294,7 +1365,7 @@ position: fixed;
 }
     
     #quote {
-    font-size: 2em;
+    font-size: 1.6em;
 }
     
     body {
@@ -1317,29 +1388,27 @@ position: fixed;
 }
     
 .about {
-    font-size:1.3em;
+    font-size:1.45em;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
     
     #aboutpara {
-    font-size:1.2em;
+    font-size:1.3em;
         padding-top: 18px;
 }
     
     .categories {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.7em;
 }
     
     #caption {
-    font-size: 1.1em;
+    font-size: 1.3em;
         color: rgb(255, 255, 255);
         height: 240px;
         margin-right: 50px;
-        margin-top: 100px;
-        
-       
+        margin-top: 100px;     
 }
     
       .schedulepos {
