@@ -522,6 +522,7 @@ iframe {
 
 .paragraph {
     text-align: center;
+    font-size: 1.2;
 }
 
 hr {
@@ -989,6 +990,10 @@ label {font-family: 'Hind', sans-serif;
     border-radius: 10px 10px 10px 10px;
 }
     
+    .paragraph {
+    font-size: 1.3;
+}
+    
     .directorimage {
     width: 40%;
     height: 140px;
@@ -1209,6 +1214,10 @@ span {
     height: 350px;
     width: 80%; 
     border-radius: 10px 10px 10px 10px;
+}
+    
+      .paragraph {
+    font-size: 1.4;
 }
     
       .directions1 {
