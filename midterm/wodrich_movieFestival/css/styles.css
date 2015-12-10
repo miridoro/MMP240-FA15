@@ -1003,7 +1003,7 @@ label {font-family: 'Hind', sans-serif;
 }
     
     .movtitle {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
     
     
@@ -1106,7 +1106,7 @@ span {
     
     p {
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1.15em;
     }
     
 
@@ -1240,7 +1240,7 @@ span {
 /*    p{font-size: 1.15em;*/
     p {
         width: 100%;
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
     
     
@@ -1250,7 +1250,7 @@ span {
     }
 
       .movtitle {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
     
 .parent {
@@ -1280,7 +1280,7 @@ span {
     
        #realBanner {
 /*    background-color: rgb(200, 0, 17);*/
-           background-color: rgba(22, 22, 20, 0.9);
+           background-color: rgba(22, 22, 20, 0.8);
     width: 100%;
     height: 350px;
     
