@@ -42,7 +42,7 @@ iframe {
    
 }
 
-#logo1 {
+.logo1 {
     
     width: 12%;
     display: inline-block;
@@ -1023,7 +1023,7 @@ label {font-family: 'Hind', sans-serif;
     margin-top: 0px;
 }
     
-  #logo1 {
+  .logo1 {
     width: 50px;
       border-radius: 10px 10px 10px 10px;
     }
